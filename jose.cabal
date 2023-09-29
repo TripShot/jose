@@ -111,14 +111,14 @@ library
     , base64-bytestring >= 1.2.1.0 && < 1.3
     , concise >= 0.1
     , containers >= 0.5
-    , cryptonite >= 0.24
+    , crypton
     , memory >= 0.7
     , monad-time >= 0.3
     , template-haskell >= 2.11
     , text >= 1.1
     , time >= 1.5
     , network-uri >= 2.6
-    , x509 >= 1.4
+    , crypton-x509
 
   hs-source-dirs: src
 
@@ -144,10 +144,10 @@ test-suite tests
     , aeson
     , base64-bytestring
     , containers
-    , cryptonite
+    , crypton
     , time
     , network-uri
-    , x509
+    , crypton-x509
     , pem
 
     , concise
